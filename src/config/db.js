@@ -1,3 +1,4 @@
+// Conexion de base de datos
 const mongoose = require('mongoose');
 require('dotenv').config();
 
@@ -10,5 +11,5 @@ const connectDB = async () => {
     process.exit(1);
   }
 };
-
+// exportar la conexion
 module.exports = connectDB;
